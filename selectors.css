@@ -1,0 +1,165 @@
+
+
+/* CSS Selectors Example */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 20px;
+}
+h1 {
+    color: #333333;
+    text-align: center;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.first{
+    display:flex;
+    /* gap:40px; */
+}
+.firstdiv{
+    color: #f0f0f0;
+    background-color: rgb(72, 3, 72);
+    width:800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+.firstdiv h1{
+    color: #f0f0f0;
+}
+.image{
+    
+    
+    background-color:rgb(240, 233, 241);
+    width: 270px;
+
+
+}
+#ima{
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right:auto ;
+    margin-bottom: auto;
+    border-radius: 100px;
+}
+.sidebar{
+    padding:10px;
+    /* border: 1px solid black; */
+    width:250px;
+    background-color:rgb(240, 233, 241);
+    
+}
+.bd{
+    padding:10px;
+}
+
+.sidebar p,h2,li{
+    font-size: small;
+}
+.sidebar h2{
+    text-decoration: underline;
+}
+.bd{
+    font-size: small;
+}
+.bd h2{
+    text-decoration: underline;
+}
+.sec{
+    display:flex ;
+    gap:40px;
+}
+
+
+
+@media (max-width: 767px) {
+
+    
+    body {
+        margin: 10px;
+        overflow-x: hidden;
+    }
+
+    
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+
+    .first {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .firstdiv {
+        width: 100%;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .firstdiv h1 {
+        font-size: 20px;
+    }
+
+    .image {
+        width: 100%;
+        padding: 15px 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    #ima {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+    }
+
+    .sec {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .sidebar {
+        width: 100%;
+    
+        padding: 15px;
+        text-align: left;
+    }
+
+    .sidebar h2 {
+        font-size: 14px;
+    }
+
+    .sidebar p,
+    .sidebar li {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+    .bd{
+        width:100%;
+        background-color:rgb(240, 233, 241);
+
+    }
+
+
+    table {
+        width: 100%;
+        display: block;
+        overflow-x: auto;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        font-size: 12px;
+        padding: 6px;
+    }
+
+}
